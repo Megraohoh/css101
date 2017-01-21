@@ -58,6 +58,111 @@ h2 ~ p {
 
 }
 
+/*Hover on anchor tags*/
+
+a:hover {
+	font-size: 50px;
+}
+
+ /*active (in the process of clicking)*/
+
+ a:active {
+ 	background-color: green;
+ }
+
+ /*focus*/
+input:focus {
+	background-color: yellow;
+}
+
+/*position elements  nth-child*/
+
+.sub-div li:nth-child(2n + 1) {
+	border: 5px solid pink;
+}
+
+.sub-div li:nth-child(2n) {
+	border: 5px solid blue;
+}
+
+
+/*same vague function^*/
+
+ .sub-div li:nth-of-type(2n) {
+ 	color: blue;
+ }
+
+section p:nth-child(2) {
+	color: red;
+}
+
+/*exact same, above and below this comment*/
+
+section p:nth-of-type(2) {
+	color: orange;
+}
+
+
+/*before  (unit code in use: \201C)*/
+#main-div-1::before {
+	content: "\201C";
+	font-size: 60px;
+	font-weight: bold;
+	color: purple;
+}
+
+/*after*/
+
+#main-div-1::after {
+	content: "$$$$$$";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
